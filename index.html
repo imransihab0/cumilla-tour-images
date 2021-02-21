@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Imran Sihab's Image Gallery X Cumilla Tour</title>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-	              ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+		<link rel="icon" href="https://imransihab0.github.io/amar_ami/is.png" type="image/png" sizes="32x32">
+		<style type="text/css">
+		
+		body{
+		background-color: #242A52;
+		}
+		
+		.my-btn{
+		text-align: center;
+		margin-buttom: 10px;
+		margin-top: 10px;
+		}
+		
+		h1{
+		color: #fff;
+		text-align: center;
+		}
+		
+		.jlr{
+		font-size: 0;
+		}
+		
+		.jlr .jlr_item{
+		font-size: 1rem;
+		display: inline-block;
+		box-sizing: border-box;
+		padding: 6px;
+		}
+		
+		.jlr img.jlr_img{
+		height: 200px;
+		opacity: 0;
+		}
+		
+		.jlr img.jlr_loaded {
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+        opacity: 1;
+		}
+		
+		</style>
+		
+</head>
+<body>
+
+
+<!-- code by Imran Shihab || using the style without my permission is prohibited -->
+
+
+
+	<div class="container">
+	
+		<h1 style="margin-top:70px;">Cumilla Tour X Imran Sihab Developer</h1>
+	
+	<div id="jLightroom" class="jlr">
+	
+		<a href="img\1.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\1.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\2.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\2.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\3.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\3.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\4.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\4.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\5.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\5.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\6.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\6.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\7.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\7.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\8.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\8.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\9.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\9.jpg" class="jlr_img" alt="imran sihab" /></a>
+	
+		<a href="img\10.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\10.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+		<a href="img\11.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\11.jpg" class="jlr_img" alt="imran sihab" /></a>
+		
+		<a href="img\12.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\12.jpg" class="jlr_img" alt="imran sihab" /></a>
+		
+		<a href="img\13.jpg" data-lightbox="1b1" class="jlr_item"><img src="img\13.jpg" class="jlr_img" alt="imran sihab" /></a>
+
+	</div>
+	
+	</div>
+	
+		</br><div class="my-btn"><a href="https://drive.google.com/drive/folders/1xLaZFHkyFObKFssNo2clF5aESitOaLSL?usp=sharing"><button about="_blank" type="button" class="btn btn-outline-secondary"> Watch Full Folder </button></a></div></br>
+
+	
+	<script src="js/jquery.min.js"></script> 
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.lightroom.js"></script>
+    
+    <script type="text/javascript">
+        $("#jLightroom").lightroom({
+            image_container_selector: ".jlr_item",
+            img_selector: "img.jlr_img",
+            img_class_loaded: "jlr_loaded",
+            img_space: 5,
+            img_mode: 'min',
+            init_callback: function(elem){$(elem).removeClass("gray_out")}
+        }).init();
+    </script>
+	
+</body>
+</html>
